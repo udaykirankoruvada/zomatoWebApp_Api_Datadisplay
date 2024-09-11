@@ -19,19 +19,12 @@ A web application with the following pages:
 - **Restaurant List Page**: Displays a list of restaurants, with the ability to click on a restaurant to view more details.
 - **Restaurant Detail Page**: Shows the complete details of a specific restaurant.
 
-## Optional Features (If Implemented)
-The application supports the following additional features:
 
-- **Filtering Options**:
-  - By Country
-  - By Average Spend for Two People
-  - By Cuisines
-- **Search Functionality**: Allows users to search for restaurants by name or description.
 
 ## How to Run
 
-1. **Data Loading**: Run the script provided in the `data-loading` directory to load the Zomato restaurant data into the database.
-2. **API Service**: Start the web API by running the `server.js` file in the `api` directory.
+1. **Data Loading**: Run the script`dataRead_insertTo_db` provided in the `zomato-app` directory to load the Zomato restaurant data into the database.
+2. **API Service**: Start the web API by running the `App.js` file in the `api` directory.
 3. **User Interface**: Launch the frontend web application by running the `client` code.
 
 ## Technologies Used
